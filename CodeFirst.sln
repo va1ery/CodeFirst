@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirst", "CodeFirst\Code
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryDatabaseCore", "InventoryDatabaseCore\InventoryDatabaseCore.csproj", "{30A9A502-1DFB-4D09-AC28-2159E7F96D5A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryModels", "InventoryModels\InventoryModels.csproj", "{0930E87C-AABA-4700-ABD9-1DDDD390C5DA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{30A9A502-1DFB-4D09-AC28-2159E7F96D5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30A9A502-1DFB-4D09-AC28-2159E7F96D5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30A9A502-1DFB-4D09-AC28-2159E7F96D5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0930E87C-AABA-4700-ABD9-1DDDD390C5DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0930E87C-AABA-4700-ABD9-1DDDD390C5DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0930E87C-AABA-4700-ABD9-1DDDD390C5DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0930E87C-AABA-4700-ABD9-1DDDD390C5DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
