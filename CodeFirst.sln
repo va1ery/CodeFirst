@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirst", "CodeFirst\CodeFirst.csproj", "{443C3B4E-8C19-4C87-986A-46786EDD257F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryDatabaseCore", "InventoryDatabaseCore\InventoryDatabaseCore.csproj", "{30A9A502-1DFB-4D09-AC28-2159E7F96D5A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{443C3B4E-8C19-4C87-986A-46786EDD257F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{443C3B4E-8C19-4C87-986A-46786EDD257F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{443C3B4E-8C19-4C87-986A-46786EDD257F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30A9A502-1DFB-4D09-AC28-2159E7F96D5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30A9A502-1DFB-4D09-AC28-2159E7F96D5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30A9A502-1DFB-4D09-AC28-2159E7F96D5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30A9A502-1DFB-4D09-AC28-2159E7F96D5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

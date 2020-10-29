@@ -1,12 +1,30 @@
-﻿using System;
+﻿using InventoryDatabaseCore;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using System;
 
 namespace CodeFirst
 {
     class Program
     {
+        static IConfigurationRoot _configuration;
+        static DbContextOptionsBuilder<InventoryDbContext> _optionsBuilder;
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            BuildOptions();
+            Console.WriteLine(_configuration.GetConnectionString("InventoryManager"));
+            ListInventory();
+        }
+        static void BuildOptions()
+        {
+            _configuration = ConfigurationBuilderSingleton.ConfigurationRoot;
+            _optionsBuilder = new DbContextOptionsBuilder<
+            InventoryDbContext>();
+            _optionsBuilder.UseSqlServer(_configuration.GetConnectionString
+            ("InventoryManager"));
+        }
+        static void ListInventory()
+        {
         }
     }
 }
